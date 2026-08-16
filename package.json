@@ -1,0 +1,14 @@
+{
+  "name": "discord-bot-render",
+  "version": "1.0.0",
+  "description": "Bot Discord modular sans base de données, compatible Render",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  }
+}
